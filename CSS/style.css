@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&family=Jost:wght@100;300;400;600&family=Lato:ital,wght@0,100;0,400;1,700&display=swap');
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+.header{
+    line-height: 1rem;
+    /* border: 1px solid; */
+    position: absolute;
+    width: 100%;
+    z-index: 11000;
+    /* background-color: #e4e4e4c2; */
+}
+.header .ls{
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+}
+.header .ls span{
+    padding: 0 5px;
+    margin-top: 2px;
+    color: #ffffff;
+}
+.header .ls .logo{
+    width: 70px;
+    padding: 15px 0;
+}
+
+/* section1 start */
+.section1{
+    background: url(../Asstes/wallpaper2.jpg) no-repeat center;
+    /* display: flex; */
+    height: 100vh;
+    color: #fff;
+    background-size: cover;
+}
+.section1 .content{
+    padding: 100px 0;
+}
+.section1 .content .text{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    font-size: 1.52em;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section1 .content .text .span2{
+    color: #000000; 
+    font-size: 2em;  
+}
