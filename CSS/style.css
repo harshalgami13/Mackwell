@@ -1,9 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&family=Jost:wght@100;300;400;600&family=Lato:ital,wght@0,100;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&family=Lato:ital,wght@0,100;0,400;1,700&family=Ubuntu:wght@300;400;500;700&display=swap');
 /*
 font-family: 'Inconsolata', monospace;
-font-family: 'Jost', sans-serif;
 font-family: 'Lato', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 */
+.name1{
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px ;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+.divider{
+    background: url(../Asstes/divider-2.png) repeat-y;
+    height: 19px;
+    width: 100%;
+    max-width: 1110px;
+    filter: grayscale(1);
+    margin: 25px auto;
+    padding: 0;
+}
+/* social */
+.social{
+    /* display: none; */
+    position: fixed;
+    top: 21%;
+    z-index: 1000000;
+    transition: 1s ease-in-out;
+    border-radius: 0 2px 2px 0;
+    /* border: 1px solid black; */
+}
+.social ul{
+    padding: 0;
+    margin: 0;
+}
+.social li{
+    list-style: none;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.social li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 2.5vh;
+    transition: 0.25s ease-in-out;
+}
+
+/* header start */
 .header{
     line-height: 1rem;
     /* border: 1px solid; */
@@ -13,11 +57,12 @@ font-family: 'Lato', sans-serif;
     /* background-color: #e4e4e4c2; */
 }
 .header .ls{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 22px;
     display: flex;
+    justify-content: center;
     align-items: center;
     letter-spacing: 2px;
 }
@@ -27,20 +72,29 @@ font-family: 'Lato', sans-serif;
     color: #ffffff;
 }
 .header .ls .logo{
-    width: 70px;
+    width: 90px;
     padding: 15px 0;
 }
 
 /* section1 start */
+.whitetone{
+    background-color: #25252556;
+    height: 100vh;
+    opacity: 0.25;
+    filter: blur(100) !important;
+    width: 100%;
+    position: absolute;
+}
 .section1{
     background: url(../Asstes/wallpaper2.jpg) no-repeat center;
     /* display: flex; */
     height: 100vh;
+    position: relative;
     color: #fff;
     background-size: cover;
 }
 .section1 .content{
-    padding: 100px 0;
+    padding: 30vh 0 0 0;
 }
 .section1 .content .text{
     display: flex;
@@ -54,6 +108,127 @@ font-family: 'Lato', sans-serif;
     text-align: center;
 }
 .section1 .content .text .span2{
-    color: #000000; 
+    color: #ffffff; 
     font-size: 2em;  
+}
+
+/* section2 start */
+.section2{
+    padding: 100px 15px 5px;
+}
+.section2 .img{
+    padding: 0 5%;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.section2 .img img{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+.section2 .img img:hover{
+    transform: scale(105%);
+}
+.section2 .name1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.section2 p{
+    text-align: justify;
+    font-size: 2.66vh;
+    letter-spacing: 0.71px;
+}
+.section2 p i{
+    color: #ff6811;
+}
+
+/* section3 */
+.section3{
+    padding: 50px 15px 5px;
+}
+.section3 .name1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.section3 .box{
+    margin: 15px 0;
+    padding: 25px;
+    background-color: #c7c7c71f;
+}
+.section3 .box .box-content{
+    padding: 10px;
+}
+.section3 .box .box-icon img{
+    width: 50px;
+    display: block;
+    margin: 0px auto;
+}
+.section3 .box .box-content .box-heading{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 0;
+    color: #453299;
+    font-weight: 500;
+}
+.section3 .box .box-content .more-link{
+    display: none;
+}
+.section3 .box .box-content .more{
+    cursor: pointer;
+}
+.section3 .box .box-content p{
+    text-align: justify;
+    font-size: 2.66vh;
+    letter-spacing: 0.71px;
+}
+
+/* section4 */
+.section4{
+    padding: 50px 15px 5px;
+}
+.section4 .name1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.section4 iframe{
+    width: 100%;
+}
+.section4 .data{
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 .data img{
+    width: 100px;
+    padding: 15px 0;
+}
+.section4 .data .company-name{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px 0;
+    color: #000000;
+    font-weight: 500;
+}
+.section4 .data .address{
+    text-align: justify;
+    padding-bottom: 5px;
+    font-size: 2.66vh;
+    letter-spacing: 0.71px;
+}
+.section4 .data i,
+.section4 .data a{
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #000000;
+    margin: 5px 0;
+    border-bottom: 0px transparent;
+    transition: 0.2s  ease-in-out;
+    font-size: 2.66vh;
+}
+.section4 .data a:hover{
+    border-bottom: 1px dashed #df3719;
 }
