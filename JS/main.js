@@ -70,7 +70,7 @@ $(document).ready(function () {
         } else {
             $('.scroll-up-btn').removeClass("show");
         }
-        if (this.scrollY > 150) {
+        if (this.scrollY > 50) {
             $('.social').addClass("show");
         } else {
             $('.social').removeClass("show");
