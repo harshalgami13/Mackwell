@@ -279,7 +279,7 @@ font-family: 'Ubuntu', sans-serif;
     letter-spacing: 0.71px;
 }
 
-/* section4 */
+/* section4 START*/
 .section4{
     padding: 50px 15px 5px;
 }
@@ -300,14 +300,20 @@ font-family: 'Ubuntu', sans-serif;
     width: 100px;
     padding: 15px 0;
 }
-.section4 .data .company-name{
-    font-size: 20px;
+.section4 .data .company-name,
+.section4 .data .contact{
+    font-size: 3.26vh;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     text-transform: capitalize;
     padding: 5px 0;
     color: #000000;
     font-weight: 500;
+}
+.section4 .data .contact{
+    font-size: 2.66vh;
+    font-weight: 400;
+    cursor: pointer;
 }
 .section4 .data .address{
     text-align: justify;
@@ -328,6 +334,12 @@ font-family: 'Ubuntu', sans-serif;
 .section4 .data a:hover{
     border-bottom: 1px dashed #453299;
 }
-@media (max-width: 768px) {
-    
+
+/* footer */
+footer{
+    font-size: 2.26vh;
+    letter-spacing: 0.71px;
+    text-align: center;
+    padding: 15px 7px;
+    background-color: #00000017;
 }
