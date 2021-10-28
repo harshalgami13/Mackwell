@@ -1,4 +1,4 @@
-<a href="https://harshalgami13.github.io/Mackwell/"><img src="Asstes/logo_transp.png" width="80px" align="center"></a>
+<a href="https://harshalgami13.github.io/Mackwell/"><img src="Asstes/logo_transp.png" width="150px" align="center"></a>
 
 # Mackwell It Solutions 
 
@@ -8,7 +8,16 @@ technology trends.Through our offerings,We help organizations attain their busin
 Empowered by many years of experience in the field of IT. MACKWELL has the right expertise to help you with all your technology needs. We have consistently delivered 
 optimal solutions for our wide-ranging global client base. Leverage our rich experience for your unique IT requirements.
 
-## 
+## Services
+
+- It Management
+- System Maintenance
+- Networking Infrastructure
+- Server Solutions
+- Telephonic Solutions
+- Wireless Solutions (P2P And WiFi)
+- Security Devices And Access Control
+- Surveillance Solution
 
 ## Vision & Mission
 
@@ -41,3 +50,9 @@ Building trusted relationships with our clients & business partners. Continuous 
 ## Preview
 
 ![From India](Asstes/preview.png)
+
+## Contact
+
+**Address** : MackWell IT Solution, B/H Pushkardham Temple, University Road, Rajkot <br/>
+**Email** : infomackwellitsolution@gmail.com <br/>
+**Phone Number**: (+91) 73599 10210
