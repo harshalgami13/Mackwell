@@ -55,6 +55,6 @@ Building trusted relationships with our clients & business partners. Continuous 
 
 ## Preview
 
-![From India](Asstes/preview.png)
+![From India](Asstes/preview1.png)
 
 
