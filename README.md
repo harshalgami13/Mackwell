@@ -47,12 +47,14 @@ Building trusted relationships with our clients & business partners. Continuous 
 [6.1]: https://img.shields.io/github/watchers/harshalgami13/Mackwell?style=social
 [6.2]: https://harshalgami13.github.io/Mackwell/
 
-## Preview
-
-![From India](Asstes/preview.png)
-
 ## Contact
 
 **Address** : MackWell IT Solution, B/H Pushkardham Temple, University Road, Rajkot <br/>
 **Email** : infomackwellitsolution@gmail.com <br/>
 **Phone Number**: (+91) 73599 10210
+
+## Preview
+
+![From India](Asstes/preview.png)
+
+
